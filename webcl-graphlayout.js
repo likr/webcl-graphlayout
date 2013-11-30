@@ -42,7 +42,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-var graph = generate(100, 0.01);
+var graph = generate(1000, 0.005);
 
 
 var startTime;
